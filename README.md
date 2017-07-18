@@ -10,7 +10,7 @@ The idea of recovering the spatial distribution of material properties inside a 
                 Installation
 ----------------------------------------------
 
-There is no need of installation. The only thing needed is to include all enclosed folders.
+There is no need of installation. The only thing needed is to include 'functions' folder into the matlab path.
 
 ----------------------------------------------
                 Compatibility
