@@ -2,6 +2,26 @@ function [main_handle,tendency_handle,text_handle] = BaseScatter( ERR,FigPos,Lab
 % FigPos is a vector with 3 elements, distrbuting the figure on screen in the same way as subplot works
 % Labels is a cell array containing {XLabel,YLabel,ZLabel,Title} - label for quiver plot is just a string defining a title
 
+
+
+
+% Jan Havelka (jnhavelka@gmail.com)
+% Copyright 2016, Czech Technical University in Prague
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+% 
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+% 
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
 figure;
 if ~isempty(FigPos)
     %place the figure on proper position on the screen
