@@ -23,7 +23,7 @@ The code is tested with Matlab 2017a (9.2). However the non-built in functions i
                   Contents
 ----------------------------------------------
 
-GTMI includes many subroutines, but mainly it is separated into xxx divisions, namely these are:
+BITM includes many subroutines, but mainly it is separated into five divisions, namely these are:
 - elliptic PDE solver
 - parabolic PDE solver
 - imaging toolbox
